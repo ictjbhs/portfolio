@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+
+h1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+
+    background-color: rgb(0, 255, 68);
+    height: 200px;
+    width: 100%;
+    h1{
+        color: red;
+    }
+}
+
+.red_card{
+    h2{
+        color: blue;
+    }
+}
+
+.cube{
+    height: 100px;
+    width: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.circle{
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    cursor:grab;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
